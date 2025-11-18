@@ -1,0 +1,25 @@
+body {
+    background: #111;
+    color: #fff;
+    font-family: Poppins, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.title {
+    font-size: 32px;
+    margin-bottom: 5px;
+    text-shadow: 0 0 10px #0ff;
+}
+
+.sub {
+    margin-top: -5px;
+    color: #bbb;
+}
+
+#game {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
