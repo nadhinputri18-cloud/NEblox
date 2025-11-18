@@ -1,11 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Maze Game Phaser</title>
-  <script src="https://cdn.jsdelivr.net/npm/phaser@3/dist/phaser.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maze Game 2D</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Load Phaser -->
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3/dist/phaser.min.js"></script>
 </head>
 <body>
-  <script src="game.js"></script>
+
+    <h1 class="title">Maze Game</h1>
+    <p class="sub">Mission: Reach the Exit</p>
+
+    <div id="game"></div>
+
+    <script src="game.js"></script>
 </body>
 </html>
+
